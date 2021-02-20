@@ -1,0 +1,15 @@
+{
+  "name": "backend-server",
+  "version": "1.0.0",
+  "description": "The backend server for Herbert-CO2 System",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "Noah Albers and Farbian Plegt",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.18.1",
+    "request-ip": "^2.1.3"
+  }
+}
