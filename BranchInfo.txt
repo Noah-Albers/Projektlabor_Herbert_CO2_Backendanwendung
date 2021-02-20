@@ -1,0 +1,1 @@
+Dieser Branch exestiert ausschließlich als temporäre Option zum Speichern der Daten in einer Sqlite-Datenbank, da es Probleme mit der Verknüpfung auf unseren Systemen gab.

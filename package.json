@@ -9,7 +9,10 @@
   "author": "Noah Albers and Farbian Plegt",
   "license": "MIT",
   "dependencies": {
+    "mariadb": "^2.5.3",
     "mysql": "^2.18.1",
-    "request-ip": "^2.1.3"
+    "request-ip": "^2.1.3",
+    "sqlite": "^4.0.19",
+    "sqlite3": "^5.0.2"
   }
 }

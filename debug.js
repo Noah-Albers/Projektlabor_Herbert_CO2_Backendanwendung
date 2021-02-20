@@ -4,7 +4,7 @@ function time(){
 }
 
 module.exports.debug=(msg)=>{
-    //console.log(time()+"\t\t[DEBUG] "+msg);
+    console.log(time()+"\t\t[DEBUG] "+msg);
 }
 module.exports.warning=(msg)=>{
     console.log(time()+"[\x1b[33mWARNING\x1b[0m] "+msg);

@@ -67,6 +67,8 @@ module.exports.updateMiddlenodeUnreachable = (middlenode)=>{
     // Removes the last comma and adds the semicolon
     query=query.substring(0,query.length-1)+";";
 
+    debug.debug("Starting insert.");
+
     // Updates the database
     return database.query(query,values);
 }

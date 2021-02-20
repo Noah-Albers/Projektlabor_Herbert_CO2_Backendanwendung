@@ -248,3 +248,5 @@ function resetTimeoutFor(device){
 // Sets the timeout for every device
 for(let middleNode in uconfig.END_DEVICES)
     resetTimeoutFor(middleNode);
+
+debug.info("Started Service");
